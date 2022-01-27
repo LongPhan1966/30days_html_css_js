@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous">
+    </script>
+    <script>
+        $(function(){
+            $("#header").load("a.html");
+            $("#footer").load("b.html");
+        });
+    </script>
+</head>
+<body>
+    <div id="header"></div>
+    <div class="card">
+        <div class="card_img">
+            <img src="img/profile_img.jpg" alt="">
+        </div>
+        <div class="card_info">
+            <h3 class="card_name">Phan Hoang Long</h3>
+            <span class="card_position">Intern</span>
+        </div>
+        
+        <div class="card_social">
+            <a href="https://www.facebook.com/profile.php?id=100009445313254"><i class='bx bxl-facebook'></i></a>
+            <a href=""><i class='bx bxl-twitter'></i></a>
+            <a href=""><i class='bx bxl-github'></i></a>
+            <a href=""><i class='bx bxl-instagram'></i></a>
+        </div>
+        <button class="btn_contact">
+            <span>Contact Me</span>
+        </button>
+    </div>
+    <div id="footer"></div>
+</body>
+</html>
