@@ -2,7 +2,7 @@ var content = document.querySelector('.form-content');
 var btnRemove = document.querySelector('.btn-remove');
 var input = document.querySelector('.form-content input');
 
-var tags = ['Ruby', 'Image']
+var tags = []
 
 function display(){
     content.innerHTML = '';
@@ -29,6 +29,7 @@ function addTag(){
         }
     })
 }
+
 
 function removeTag(index){
     tags.splice(index, 1);
