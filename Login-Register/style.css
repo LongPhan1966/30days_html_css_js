@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:  border-box;
+}
+
+body{
+    height: 100vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+input{
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+form{
+    padding: 15px;
+    
+    border-radius:5px;
+}
+.tab-item{
+    cursor: pointer;
+    font-size: 20px;
+    padding: 0 20px;
+}
+
+.tab-item:hover{
+    border-bottom: 2px solid #333;
+}
+
+.tab-item.active{
+    opacity: 1;
+    border-bottom: 2px solid #333;
+}
+
+.tab-content{
+    margin-top:30px;
+}
+
+.img_login{
+    width: 100%;
+}
+
+.tab-pane{
+    display:none;
+}
+
+.tab-pane.active{
+    display: block;
+}
